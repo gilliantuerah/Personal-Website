@@ -20,9 +20,16 @@
     box-sizing: border-box;
 }
 html{
+    scroll-behavior: smooth;
     width:100%;
 }
-
+.top-nav.scroll{
+    background: rgba(242, 239, 234,1)
+   
+}
+.top-nav.scroll a{
+    color:#403D58;
+}
 .overlay{
     position: absolute;
     height: 100vh;
