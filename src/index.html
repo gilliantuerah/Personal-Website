@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <div class="overlay" id="overlay">
+        <h3>Thank you for sending me your message.<br>Glad to see you here!</h3>
+    </div>
     <!-- HEADER -->
     <div class="header">
         <nav class="top-nav">
@@ -30,12 +33,16 @@
             </ul>
         </nav>
         <div class="intro">
-            <h1>Hi,</h1>
-            <div>
-                <span class="im">I'm <span class="name">Gill</span></span>
+            <div class="title">
+                <h1>Hi,</h1>
+                <div>
+                    <span class="im">I'm <span class="name">Gill</span></span>
+                </div>
             </div>
-            <!-- <p>Gillian Tuerah</p> -->
-            <p>Someone who is interested in UI | UX and Web Development.</p>
+            <div class="desc-little">
+                <p>Someone who is interested in UI | UX and Web Development.</p>
+            </div>
+
         </div>
 
     </div>
@@ -51,9 +58,16 @@
                     About
                 </h1>
                 <p>
-                    Hello, my name is Felicia Gillian Tekad Tuerah. People call me Gill. 3rd year of undergraduate
-                    student in Informatics Engineering at Institut Teknologi Bandung.
+                    Hello, I'm <b>Felicia Gillian Tekad Tuerah</b>. People call me <b>Gill</b>. I was born in Manado on
+                    31<sup>st</sup> October 2000. Currently pursuing my study on <b>Informatics Engineering</b> at
+                    <b>Institut
+                        Teknologi Bandung</b>.
+                    <br> Lately, I just found my interest in <b>UI | UX</b> and <b>Web Development</b> and on my way to
+                    master it
+                    up. Hoping someday I can make something big from what I've learn right now.
                 </p>
+
+
             </div>
         </div>
     </section>
@@ -61,7 +75,7 @@
     <section class="exp" id="exp">
         <div class="experiences">
             <div class="work">
-                <h1>Organizations</h1>
+                <h1><span>Organizations</span></h1>
                 <ul>
                     <li class="date" data-date="Mar 2020 - Present">
                         <h2>Treasurer</h2>
@@ -152,14 +166,21 @@
             <div class="contact">
                 <h1>Contact</h1>
                 <p>Let's get in touch</p>
+                <!-- <div class="form-message">
+                    <form action="">
+                        <input type="text" name="mssg" id="mssg" placeholder="Send me a message!">
+                        <input type="button" value="Send" id="btn">
+                    </form>
+                </div> -->
+
                 <ul class="contact-list">
                     <li>
-                        <a href="https://www.linkedin.com/in/gillian-tuerah" class="icon-contact">
+                        <a href="https://www.linkedin.com/in/gillian-tuerah" class="icon-contact" target="_blank">
                             <i title="LinkedIn" class="fa fa-linkedin-square"></i>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/gillian_tuerah" class="icon-contact">
+                        <a href="https://www.instagram.com/gillian_tuerah" class="icon-contact" target="_blank">
                             <i title="Instagram" class="fa fa-instagram"></i>
                         </a>
                     </li>
@@ -171,18 +192,23 @@
             <div class="project">
                 <h1>Project</h1>
                 <p>To see some project of mine, go visit my github page</p>
-                <a href="https://github.com/gilliantuerah" class="icon-contact">
+                <a href="https://github.com/gilliantuerah" class="icon-contact" target="_blank">
                     <i title="Github" class="fa fa-github"></i>
                 </a>
             </div>
 
         </div>
     </section>
+    <script src="main.js"></script>
+
 </body>
 <!-- COPYRIGHT -->
 <footer class="copyright">
-    <p>&copy; 2020 by Gillian Tuerah</p>
 
+    <!-- <div class="quotes">
+        <p>"Sometimes You Win<br>Always You Learn."</p>
+    </div> -->
+    <p>&copy; 2020 by Gillian Tuerah</p>
 </footer>
 
 </html>
