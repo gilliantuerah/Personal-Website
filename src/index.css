@@ -168,6 +168,9 @@ html{
 
 
 /* Experiences */
+.line-pembatas{
+    opacity: 0%;
+}
 .exp .experiences{
     padding:25px;
     align-items: center;
@@ -406,6 +409,7 @@ html{
     background-color: #403D58;
     color: white;
     padding:25px;
+    font-family: 'Catamaran', sans-serif;
   
 }
 /* Footer Start */
@@ -462,6 +466,78 @@ html{
     }
     .skills p{
         font-size: 15px;
+    }
+
+}
+@media screen and (max-width:450px){
+    .top-list li{
+        margin:5px
+    }
+    .top-link{
+        padding:5px;
+        font-size:12px;
+    }
+    .intro p{
+        font-size: 15px;
+    }
+    .intro h1{
+        font-size: 80px;
+    }
+    .im{
+        font-size: 80px;
+    }
+    .name{
+        font-size: 80px;
+    }
+    .bio-image img{
+        width: 250px;
+        height: 250px;
+    }
+    .exp .experiences h1{
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #403D58;
+    }
+    .work ul{
+        width: 63%;
+    }
+    .date h2{
+        font-size: 18px;
+        margin-left: -20px;
+    }
+    .work p{
+        font-size: 15px;
+        margin-left: -20px;
+    }
+    .certif-image1 img{
+        /* 52.9 ; 40.9*/
+        width: 211.6px;
+        height: 163.6px;
+        margin-bottom: 0px;
+     
+    }
+    .certif-desc h2{
+        font-size: 20px;
+    }
+    .certif-desc p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .contact-list li{
+        width: 50%;
+    }
+    .icon-contact{
+        font-size: 60px;
+    }
+    .project .icon-contact{
+        font-size: 80px;
+    }
+    .contact-list{
+        display:flex;
+        margin-bottom: 0px;
     }
 
 }
