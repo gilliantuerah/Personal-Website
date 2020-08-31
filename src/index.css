@@ -1,18 +1,18 @@
 @font-face {
     font-family: 'dancing-scriptregular';
-    src: url('./font/dancing/dancingscript-variablefont_wght-webfont.woff2') format('woff2'),
-         url('./font/dancing/dancingscript-variablefont_wght-webfont.woff') format('woff');
+    src: url('../font/dancing/dancingscript-variablefont_wght-webfont.woff2') format('woff2'),
+         url('../font/dancing/dancingscript-variablefont_wght-webfont.woff') format('woff');
 }
 @font-face {
     font-family: 'josefin_slablight';
-    src: url('./font/josefin/josefinslab-light-webfont.woff2') format('woff2'),
-         url('./font/josefin/josefinslab-light-webfont.woff') format('woff');
+    src: url('../font/josefin/josefinslab-light-webfont.woff2') format('woff2'),
+         url('../font/josefin/josefinslab-light-webfont.woff') format('woff');
 
 }
 @font-face {
     font-family: 'abril_fatfaceregular';
-    src: url('./font/abril/abrilfatface-regular-webfont.woff2') format('woff2'),
-         url('./font/abril/abrilfatface-regular-webfont.woff') format('woff');
+    src: url('../font/abril/abrilfatface-regular-webfont.woff2') format('woff2'),
+         url('../font/abril/abrilfatface-regular-webfont.woff') format('woff');
 }
 *{
     margin:0;
