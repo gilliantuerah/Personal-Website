@@ -517,6 +517,9 @@ input[type=button]:hover{
     .bio-details h1{
         font-size: 40px;
     }
+    b{
+        font-size: 15px;
+    }
     .bio-details{
         padding: 20px;
     }
